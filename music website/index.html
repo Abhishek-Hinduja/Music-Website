@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="container">
+        <div class="section_1">
+            <header class="header">
+                <p>Musify</p>
+            </header>
+            <div class="audios">
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/1.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">4 Yaar</h1>
+                        <button class="btn" onclick="playAudio(1)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/2.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Dont Tell Me</h1>
+                        <button class="btn" onclick="playAudio(2)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/3.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">8 Parche</h1>
+                        <button class="btn" onclick="playAudio(3)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/4.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Shikaar - Parry Sarpanch</h1>
+                        <button class="btn" onclick="playAudio(4)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/5.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Meriwali sardarni</h1>
+                        <button class="btn" onclick="playAudio(5)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/6.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Param Sundari</h1>
+                        <button class="btn" onclick="playAudio(6)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/7.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Defaulter</h1>
+                        <button class="btn" onclick="playAudio(7)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/8.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Kabhi Tumhe</h1>
+                        <button class="btn" onclick="playAudio(8)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/9.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Kache Pakke Yaar</h1>
+                        <button class="btn" onclick="playAudio(9)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/10.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Hostel</h1>
+                        <button class="btn" onclick="playAudio(10)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnail/11.jpg" alt="">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Ik Tera</h1>
+                        <button class="btn" onclick="playAudio(11)">Play</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section_2">
+            <div class="thumbnails">
+                <img id = "thumbnail" src="./thumbnail/1.jpg" alt="" srcset="">
+            </div>
+
+            <audio id = "audiio_player" class= "audiio_player" src="./audio/1.mp3" controls></audio>
+
+            <h1 id = "audio_player_title" class="audio_player_title">Bismillah</h1>
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
